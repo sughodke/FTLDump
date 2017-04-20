@@ -1,5 +1,29 @@
 Memory Dump for Faster Than Light
 =================================
+
+Using native VM commands
+
+```
+  heap FTL
+  heap FTL -address CompleteShip
+  heap FTL -address BossShip
+  heap FTL -address OuterHull
+  heap FTL -address Shields
+  heap FTL -address Player
+```
+
+
+```
+  vmmap FTL
+  vmmap FTL | grep PRV
+```
+
+```
+  lldb
+  > attach {PID}
+  > me read -o /tmp/1.bin -b {base} {base}+{n_bytes}
+```
+
 Small and simple memory library for OSX.
 
 Build:

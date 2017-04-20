@@ -1,2 +1,13 @@
+Memory Dump for Faster Than Light
+=================================
 Small and simple memory library for OSX.
-Useful to dump stuff or for debugging purposes .
+
+Build:
+
+`make`
+
+Run:
+
+Ensure that FTL is already running.  Then run `./scan_ftl`.
+
+
